@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Generate a <br /><span>Random Password</span></h1>
+    <div>
+      <input id="password" type="text" placeholder="Password" readonly />
+      <img src="img/gen.png" onclick="copyPassword()" />
+    </div>
+    <button id="generatePass" type="button" onclick="createPassword()">
+      Generate Password
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
